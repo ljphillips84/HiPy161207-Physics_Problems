@@ -7,13 +7,13 @@ In this exercise we will extend our analysis extract additional parameters using
 
 ## Series resistance
 
-The series resistance, Rs is taken from the gradient of the J-V curve about the Voc point. The formula can be written as `1000/gradient_at_Voc` where the factor of 1000 is included to take account of our data being in mA.
+The series resistance, Rs is taken from the gradient of the J-V curve about the Voc point. The formula is `Rs = 1000/gradient_at_Voc` where the factor of 1000 is included to take account of our data being in mA.
 
 Find the point in the data for the Voc, generate a small sub-array of points, just several either side of the Voc, and use the `linregress()` function to find the gradient.
 
 ## Shunt resistance
 
-The shunt resistance, Rsh is taken from the gradient of the J-V curve about the Jsc point. The formula can be written as `1000/gradient_at_Jsc`.
+The shunt resistance, Rsh is taken from the gradient of the J-V curve about the Jsc point. The formula is `Rsh = 1000/gradient_at_Jsc`.
 
 Find the point in the data for the Jsc, generate a small sub-array of points, just several either side of the Voc, and use the `linregress()` function to find the gradient.
 
