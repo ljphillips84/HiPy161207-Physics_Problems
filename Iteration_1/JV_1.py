@@ -67,7 +67,8 @@ plt.title('J-V Curve')
 plt.grid(True)
 plt.axhline(0, linewidth="2", color="black")
 plt.axvline(0, linewidth="2", color="black")
-plt.show()
+plt.savefig('1-1.png')
+#plt.show()
 
 
 print(results)
