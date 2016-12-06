@@ -23,3 +23,8 @@ def getparameters(data):
     Rsh = 1000/abs(stats.linregress(Jscsubset)[0])
 
     return Voc*Jsc*FF, Voc, Jsc, FF, Rs, Rsh
+
+def i_to_j(data):
+    for i in range(0, len(data)):
+        data[i][1] = 1000 * float(data[i][1]) / 0.1
+    return data
