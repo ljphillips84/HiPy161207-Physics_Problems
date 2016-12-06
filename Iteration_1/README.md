@@ -43,6 +43,8 @@ Play around with the various options from matplotlib to add `plt.xlabel()`, `plt
 
 Use `plt.show()` to see the result
 
+Can you use `plt.savefig()` to save the plot?
+
 
 ## Task 3 - Extracting open circuit voltage (Voc)
 
