@@ -21,4 +21,4 @@ Note, you will require on the first piece of data that the function returns i.e.
 
 ## Further idea
 
-Can you also make use of the `linregress()` function to extract a mre accurate Voc and Jsc? Find the actual intercepts with the axes rather than just use the point nearest zero?  
+Can you also make use of the `linregress()` function to extract a more accurate Voc and Jsc? Find the actual intercepts with the axes rather than just use the point nearest zero?  
